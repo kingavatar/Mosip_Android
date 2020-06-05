@@ -11,7 +11,7 @@
     limitations under the License.
 -->
 <resources>
-    <string name="app_name">Dlib Face Recognition</string>
+    <string name="app_name">QR mosip</string>
     <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
     <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
     <string name="picture_taken">Picture taken</string>
@@ -23,5 +23,12 @@
     <string name="flash_on">Flash on</string>
     <string name="take_picture">Recognize</string>
     <string name="add_person">Add</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="address">Address</string>
+
+    <string name="selectdate">Date Of Birth</string>
+
+    <string name="uploadimage">Take Photo</string>
     <string name="title_activity_add_person">AddPerson</string>
 </resources>

@@ -43,10 +43,10 @@ configurations {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile "com.android.support:appcompat-v7:${rootProject.ext.androidSupportSdkVersion}"
-    javadocDeps "com.android.support:appcompat-v7:${rootProject.ext.androidSupportSdkVersion}"
-    compile "com.android.support:support-annotations:${rootProject.ext.androidSupportSdkVersion}"
-    javadocDeps "com.android.support:support-annotations:${rootProject.ext.androidSupportSdkVersion}"
+    compile 'androidx.appcompat:appcompat:1.0.0'
+    javadocDeps 'androidx.appcompat:appcompat:1.0.0'
+    compile 'androidx.annotation:annotation:1.0.0'
+    javadocDeps 'androidx.annotation:annotation:1.0.0'
 }
 
 buildscript {

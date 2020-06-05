@@ -17,8 +17,8 @@
 package com.google.android.cameraview.demo;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.RawRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.RawRes;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
